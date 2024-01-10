@@ -13,7 +13,7 @@ public class Main {
                 break;
             } else {
                 String name = input;
-                if (Character.isUpperCase(name.charAt(0))) {
+                if (Character.isUpperCase(name.charAt(0))) { //определяем заглавная ли буква
                     if (maxName == null) {
                         System.out.println("Это первое введеное имя");
                         maxName = input;
